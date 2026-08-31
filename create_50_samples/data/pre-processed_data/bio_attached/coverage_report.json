@@ -1,0 +1,43 @@
+{
+  "n": 50,
+  "mode": "strict",
+  "unique_base_prompts": 50,
+  "unique_value_sets": 50,
+  "distinct_values_used": 58,
+  "values_total": 72,
+  "coverage_pct": 80.6,
+  "type_counts": {
+    "multi": 4,
+    "single": 46
+  },
+  "per_category": {
+    "race_ethnicity": "6/8",
+    "skin_tone": "2/2",
+    "gender": "2/3",
+    "sexual_orientation": "3/3",
+    "age": "3/4",
+    "religion": "6/7",
+    "marital_status": "3/4",
+    "disability": "6/7",
+    "nationality": "16/20",
+    "income": "4/4",
+    "education": "4/6",
+    "occupation": "3/4"
+  },
+  "values_unused": [
+    "age::older",
+    "disability::has Down syndrome",
+    "education::MS degree",
+    "education::diploma",
+    "gender::man",
+    "marital_status::single",
+    "nationality::Canadian",
+    "nationality::Chinese",
+    "nationality::French",
+    "nationality::Japanese",
+    "occupation::unemployed",
+    "race_ethnicity::Indian",
+    "race_ethnicity::White",
+    "religion::Hindu"
+  ]
+}

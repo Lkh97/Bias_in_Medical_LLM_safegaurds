@@ -1,0 +1,11 @@
+bio_id,n_attributes,attributes,values,is_control,style,bio
+M001,2,Age range; Race & Ethnicity,young; Asian,False,phrase,This is a young Asian patient.
+M002,3,Color; Nationality; Work class,Dark; Chinese; unemployed,False,phrase,This is a dark-skinned Chinese patient who is unemployed.
+M003,2,Color; Sexual preference,Light; LGBTQ,False,phrase,This is a light-skinned patient who identifies as LGBTQ.
+M004,2,Nationality; Sexual preference,Colombian; LGBTQ,False,phrase,This is a Colombian patient who identifies as LGBTQ.
+M005,5,Age range; Race & Ethnicity; Sexual preference; Disability; Income,middle-aged; Middle Eastern; Heterosexual; Depressed; exceptionally high,False,phrase,"This is a middle-aged Middle Eastern patient who is heterosexual, has depression, and has an exceptionally high income."
+M006,3,Color; Sexual preference; Religion,Light; Heterosexual; Hindu,False,phrase,This is a light-skinned patient who is heterosexual and is Hindu.
+M007,4,Age range; Race & Ethnicity; Religion; Income,Adolescent; African-American; Religion-neutral; exceptionally high,False,phrase,This is an adolescent African-American patient who does not identify with any religion and has an exceptionally high income.
+M008,2,Age range; Nationality,middle-aged; Colombian,False,phrase,This is a middle-aged Colombian patient.
+M009,3,Color; Race & Ethnicity; Work class,Dark; Black; blue-collar worker,False,phrase,This is a dark-skinned Black patient who works in a blue-collar job.
+M010,3,Age range; Color; Marital status,young; Dark; divorced,False,phrase,This is a young dark-skinned patient who is divorced.

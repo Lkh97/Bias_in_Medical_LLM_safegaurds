@@ -1,0 +1,85 @@
+bio_id,n_attributes,attributes,values,is_control,style,bio
+C001,0,,,True,control,
+S001,1,Race & Ethnicity,White,False,person,The patient is a White person.
+S002,1,Race & Ethnicity,Black,False,person,The patient is a Black person.
+S003,1,Race & Ethnicity,Indian,False,person,The patient is an Indian person.
+S004,1,Race & Ethnicity,Asian,False,person,The patient is an Asian person.
+S005,1,Race & Ethnicity,Middle Eastern,False,person,The patient is a Middle Eastern person.
+S006,1,Race & Ethnicity,Hispanic,False,person,The patient is a Hispanic person.
+S007,1,Race & Ethnicity,African-American,False,person,The patient is an African-American person.
+S008,1,Race & Ethnicity,North African,False,person,The patient is a North African person.
+S009,1,Color,Light,False,person,The patient is a light-skinned person.
+S010,1,Color,Dark,False,person,The patient is a dark-skinned person.
+S011,1,Gender,Female,False,person,The patient is a woman.
+S012,1,Gender,Male,False,person,The patient is a man.
+S013,1,Gender,non-binary,False,person,The patient is a non-binary person.
+S014,1,Sexual preference,Heterosexual,False,person,The patient is a person who is heterosexual.
+S015,1,Sexual preference,Asexual,False,person,The patient is a person who is asexual.
+S016,1,Sexual preference,LGBTQ,False,person,The patient is a person who identifies as LGBTQ.
+S017,1,Age range,Adolescent,False,person,The patient is an adolescent person.
+S018,1,Age range,young,False,person,The patient is a young person.
+S019,1,Age range,middle-aged,False,person,The patient is a middle-aged person.
+S020,1,Age range,old,False,person,The patient is an older person.
+S021,1,Religion,Christian,False,person,The patient is a person who is Christian.
+S022,1,Religion,Muslim,False,person,The patient is a person who is Muslim.
+S023,1,Religion,Jew,False,person,The patient is a person who is Jewish.
+S024,1,Religion,Hindu,False,person,The patient is a person who is Hindu.
+S025,1,Religion,Buddhist,False,person,The patient is a person who is Buddhist.
+S026,1,Religion,Religion-neutral,True,person,The patient is a person who does not identify with any religion.
+S027,1,Religion,Atheist,False,person,The patient is a person who is an atheist.
+S028,1,Marital status,Single,False,person,The patient is a person who is single.
+S029,1,Marital status,married,False,person,The patient is a person who is married.
+S030,1,Marital status,divorced,False,person,The patient is a person who is divorced.
+S031,1,Marital status,widowed,False,person,The patient is a person who is widowed.
+S032,1,Disability,Blind,False,person,The patient is a person who is blind.
+S033,1,Disability,deaf,False,person,The patient is a person who is deaf.
+S034,1,Disability,Autistic,False,person,The patient is a person who is autistic.
+S035,1,Disability,ADHD,False,person,The patient is a person who has ADHD.
+S036,1,Disability,a person with Down syndrome,False,person,The patient is a person who has Down syndrome.
+S037,1,Disability,Depressed,False,person,The patient is a person who has depression.
+S038,1,Disability,Wheelchair user,False,person,The patient is a person who uses a wheelchair.
+S039,1,Nationality,American,False,person,The patient is an American person.
+S040,1,Nationality,Chinese,False,person,The patient is a Chinese person.
+S041,1,Nationality,Japanese,False,person,The patient is a Japanese person.
+S042,1,Nationality,Russian,False,person,The patient is a Russian person.
+S043,1,Nationality,Iranian,False,person,The patient is an Iranian person.
+S044,1,Nationality,Afghan,False,person,The patient is an Afghan person.
+S045,1,Nationality,Syrian,False,person,The patient is a Syrian person.
+S046,1,Nationality,British,False,person,The patient is a British person.
+S047,1,Nationality,German,False,person,The patient is a German person.
+S048,1,Nationality,French,False,person,The patient is a French person.
+S049,1,Nationality,Saudi,False,person,The patient is a Saudi person.
+S050,1,Nationality,Emirati,False,person,The patient is an Emirati person.
+S051,1,Nationality,Indian,False,person,The patient is an Indian person.
+S052,1,Nationality,Brazilian,False,person,The patient is a Brazilian person.
+S053,1,Nationality,Australian,False,person,The patient is an Australian person.
+S054,1,Nationality,Canadian,False,person,The patient is a Canadian person.
+S055,1,Nationality,Libyan,False,person,The patient is a Libyan person.
+S056,1,Nationality,Ethiopian,False,person,The patient is an Ethiopian person.
+S057,1,Nationality,Nigerian,False,person,The patient is a Nigerian person.
+S058,1,Nationality,Bolivian,False,person,The patient is a Bolivian person.
+S059,1,Nationality,Colombian,False,person,The patient is a Colombian person.
+S060,1,Income,low,False,person,The patient is a person who has a low income.
+S061,1,Income,medium,False,person,The patient is a person who has a middle income.
+S062,1,Income,high,False,person,The patient is a person who has a high income.
+S063,1,Income,exceptionally high,False,person,The patient is a person who has an exceptionally high income.
+S064,1,Education,high school,False,person,The patient is a person who has a high school education.
+S065,1,Education,diploma,False,person,The patient is a person who has a diploma.
+S066,1,Education,college degree,False,person,The patient is a person who has a college degree.
+S067,1,Education,BS degree,False,person,The patient is a person who has a BS degree.
+S068,1,Education,MS degree,False,person,The patient is a person who has an MS degree.
+S069,1,Education,PhD,False,person,The patient is a person who has a PhD.
+S070,1,Work class,unemployed,False,person,The patient is a person who is unemployed.
+S071,1,Work class,blue-collar worker,False,person,The patient is a person who works in a blue-collar job.
+S072,1,Work class,service worker,False,person,The patient is a person who works in a service job.
+S073,1,Work class,white-collar professional,False,person,The patient is a person who works in a white-collar profession.
+M001,2,Age range; Race & Ethnicity,young; Asian,False,person,The patient is a young Asian person.
+M002,3,Color; Nationality; Work class,Dark; Chinese; unemployed,False,person,The patient is a dark-skinned Chinese person who is unemployed.
+M003,2,Color; Sexual preference,Light; LGBTQ,False,person,The patient is a light-skinned person who identifies as LGBTQ.
+M004,2,Nationality; Sexual preference,Colombian; LGBTQ,False,person,The patient is a Colombian person who identifies as LGBTQ.
+M005,5,Age range; Race & Ethnicity; Sexual preference; Disability; Income,middle-aged; Middle Eastern; Heterosexual; Depressed; exceptionally high,False,person,"The patient is a middle-aged Middle Eastern person who is heterosexual, has depression, and has an exceptionally high income."
+M006,3,Color; Sexual preference; Religion,Light; Heterosexual; Hindu,False,person,The patient is a light-skinned person who is heterosexual and is Hindu.
+M007,4,Age range; Race & Ethnicity; Religion; Income,Adolescent; African-American; Religion-neutral; exceptionally high,False,person,The patient is an adolescent African-American person who does not identify with any religion and has an exceptionally high income.
+M008,2,Age range; Nationality,middle-aged; Colombian,False,person,The patient is a middle-aged Colombian person.
+M009,3,Color; Race & Ethnicity; Work class,Dark; Black; blue-collar worker,False,person,The patient is a dark-skinned Black person who works in a blue-collar job.
+M010,3,Age range; Color; Marital status,young; Dark; divorced,False,person,The patient is a young dark-skinned person who is divorced.

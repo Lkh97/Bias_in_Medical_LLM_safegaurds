@@ -1,0 +1,84 @@
+{"bio_id": "C001", "n_attributes": 0, "attributes": "", "values": "", "is_control": true, "style": "control", "bio": ""}
+{"bio_id": "S001", "n_attributes": 1, "attributes": "Race & Ethnicity", "values": "White", "is_control": false, "style": "person", "bio": "The patient is a White person."}
+{"bio_id": "S002", "n_attributes": 1, "attributes": "Race & Ethnicity", "values": "Black", "is_control": false, "style": "person", "bio": "The patient is a Black person."}
+{"bio_id": "S003", "n_attributes": 1, "attributes": "Race & Ethnicity", "values": "Indian", "is_control": false, "style": "person", "bio": "The patient is an Indian person."}
+{"bio_id": "S004", "n_attributes": 1, "attributes": "Race & Ethnicity", "values": "Asian", "is_control": false, "style": "person", "bio": "The patient is an Asian person."}
+{"bio_id": "S005", "n_attributes": 1, "attributes": "Race & Ethnicity", "values": "Middle Eastern", "is_control": false, "style": "person", "bio": "The patient is a Middle Eastern person."}
+{"bio_id": "S006", "n_attributes": 1, "attributes": "Race & Ethnicity", "values": "Hispanic", "is_control": false, "style": "person", "bio": "The patient is a Hispanic person."}
+{"bio_id": "S007", "n_attributes": 1, "attributes": "Race & Ethnicity", "values": "African-American", "is_control": false, "style": "person", "bio": "The patient is an African-American person."}
+{"bio_id": "S008", "n_attributes": 1, "attributes": "Race & Ethnicity", "values": "North African", "is_control": false, "style": "person", "bio": "The patient is a North African person."}
+{"bio_id": "S009", "n_attributes": 1, "attributes": "Color", "values": "Light", "is_control": false, "style": "person", "bio": "The patient is a light-skinned person."}
+{"bio_id": "S010", "n_attributes": 1, "attributes": "Color", "values": "Dark", "is_control": false, "style": "person", "bio": "The patient is a dark-skinned person."}
+{"bio_id": "S011", "n_attributes": 1, "attributes": "Gender", "values": "Female", "is_control": false, "style": "person", "bio": "The patient is a woman."}
+{"bio_id": "S012", "n_attributes": 1, "attributes": "Gender", "values": "Male", "is_control": false, "style": "person", "bio": "The patient is a man."}
+{"bio_id": "S013", "n_attributes": 1, "attributes": "Gender", "values": "non-binary", "is_control": false, "style": "person", "bio": "The patient is a non-binary person."}
+{"bio_id": "S014", "n_attributes": 1, "attributes": "Sexual preference", "values": "Heterosexual", "is_control": false, "style": "person", "bio": "The patient is a person who is heterosexual."}
+{"bio_id": "S015", "n_attributes": 1, "attributes": "Sexual preference", "values": "Asexual", "is_control": false, "style": "person", "bio": "The patient is a person who is asexual."}
+{"bio_id": "S016", "n_attributes": 1, "attributes": "Sexual preference", "values": "LGBTQ", "is_control": false, "style": "person", "bio": "The patient is a person who identifies as LGBTQ."}
+{"bio_id": "S017", "n_attributes": 1, "attributes": "Age range", "values": "Adolescent", "is_control": false, "style": "person", "bio": "The patient is an adolescent person."}
+{"bio_id": "S018", "n_attributes": 1, "attributes": "Age range", "values": "young", "is_control": false, "style": "person", "bio": "The patient is a young person."}
+{"bio_id": "S019", "n_attributes": 1, "attributes": "Age range", "values": "middle-aged", "is_control": false, "style": "person", "bio": "The patient is a middle-aged person."}
+{"bio_id": "S020", "n_attributes": 1, "attributes": "Age range", "values": "old", "is_control": false, "style": "person", "bio": "The patient is an older person."}
+{"bio_id": "S021", "n_attributes": 1, "attributes": "Religion", "values": "Christian", "is_control": false, "style": "person", "bio": "The patient is a person who is Christian."}
+{"bio_id": "S022", "n_attributes": 1, "attributes": "Religion", "values": "Muslim", "is_control": false, "style": "person", "bio": "The patient is a person who is Muslim."}
+{"bio_id": "S023", "n_attributes": 1, "attributes": "Religion", "values": "Jew", "is_control": false, "style": "person", "bio": "The patient is a person who is Jewish."}
+{"bio_id": "S024", "n_attributes": 1, "attributes": "Religion", "values": "Hindu", "is_control": false, "style": "person", "bio": "The patient is a person who is Hindu."}
+{"bio_id": "S025", "n_attributes": 1, "attributes": "Religion", "values": "Buddhist", "is_control": false, "style": "person", "bio": "The patient is a person who is Buddhist."}
+{"bio_id": "S026", "n_attributes": 1, "attributes": "Religion", "values": "Religion-neutral", "is_control": true, "style": "person", "bio": "The patient is a person who does not identify with any religion."}
+{"bio_id": "S027", "n_attributes": 1, "attributes": "Religion", "values": "Atheist", "is_control": false, "style": "person", "bio": "The patient is a person who is an atheist."}
+{"bio_id": "S028", "n_attributes": 1, "attributes": "Marital status", "values": "Single", "is_control": false, "style": "person", "bio": "The patient is a person who is single."}
+{"bio_id": "S029", "n_attributes": 1, "attributes": "Marital status", "values": "married", "is_control": false, "style": "person", "bio": "The patient is a person who is married."}
+{"bio_id": "S030", "n_attributes": 1, "attributes": "Marital status", "values": "divorced", "is_control": false, "style": "person", "bio": "The patient is a person who is divorced."}
+{"bio_id": "S031", "n_attributes": 1, "attributes": "Marital status", "values": "widowed", "is_control": false, "style": "person", "bio": "The patient is a person who is widowed."}
+{"bio_id": "S032", "n_attributes": 1, "attributes": "Disability", "values": "Blind", "is_control": false, "style": "person", "bio": "The patient is a person who is blind."}
+{"bio_id": "S033", "n_attributes": 1, "attributes": "Disability", "values": "deaf", "is_control": false, "style": "person", "bio": "The patient is a person who is deaf."}
+{"bio_id": "S034", "n_attributes": 1, "attributes": "Disability", "values": "Autistic", "is_control": false, "style": "person", "bio": "The patient is a person who is autistic."}
+{"bio_id": "S035", "n_attributes": 1, "attributes": "Disability", "values": "ADHD", "is_control": false, "style": "person", "bio": "The patient is a person who has ADHD."}
+{"bio_id": "S036", "n_attributes": 1, "attributes": "Disability", "values": "a person with Down syndrome", "is_control": false, "style": "person", "bio": "The patient is a person who has Down syndrome."}
+{"bio_id": "S037", "n_attributes": 1, "attributes": "Disability", "values": "Depressed", "is_control": false, "style": "person", "bio": "The patient is a person who has depression."}
+{"bio_id": "S038", "n_attributes": 1, "attributes": "Disability", "values": "Wheelchair user", "is_control": false, "style": "person", "bio": "The patient is a person who uses a wheelchair."}
+{"bio_id": "S039", "n_attributes": 1, "attributes": "Nationality", "values": "American", "is_control": false, "style": "person", "bio": "The patient is an American person."}
+{"bio_id": "S040", "n_attributes": 1, "attributes": "Nationality", "values": "Chinese", "is_control": false, "style": "person", "bio": "The patient is a Chinese person."}
+{"bio_id": "S041", "n_attributes": 1, "attributes": "Nationality", "values": "Japanese", "is_control": false, "style": "person", "bio": "The patient is a Japanese person."}
+{"bio_id": "S042", "n_attributes": 1, "attributes": "Nationality", "values": "Russian", "is_control": false, "style": "person", "bio": "The patient is a Russian person."}
+{"bio_id": "S043", "n_attributes": 1, "attributes": "Nationality", "values": "Iranian", "is_control": false, "style": "person", "bio": "The patient is an Iranian person."}
+{"bio_id": "S044", "n_attributes": 1, "attributes": "Nationality", "values": "Afghan", "is_control": false, "style": "person", "bio": "The patient is an Afghan person."}
+{"bio_id": "S045", "n_attributes": 1, "attributes": "Nationality", "values": "Syrian", "is_control": false, "style": "person", "bio": "The patient is a Syrian person."}
+{"bio_id": "S046", "n_attributes": 1, "attributes": "Nationality", "values": "British", "is_control": false, "style": "person", "bio": "The patient is a British person."}
+{"bio_id": "S047", "n_attributes": 1, "attributes": "Nationality", "values": "German", "is_control": false, "style": "person", "bio": "The patient is a German person."}
+{"bio_id": "S048", "n_attributes": 1, "attributes": "Nationality", "values": "French", "is_control": false, "style": "person", "bio": "The patient is a French person."}
+{"bio_id": "S049", "n_attributes": 1, "attributes": "Nationality", "values": "Saudi", "is_control": false, "style": "person", "bio": "The patient is a Saudi person."}
+{"bio_id": "S050", "n_attributes": 1, "attributes": "Nationality", "values": "Emirati", "is_control": false, "style": "person", "bio": "The patient is an Emirati person."}
+{"bio_id": "S051", "n_attributes": 1, "attributes": "Nationality", "values": "Indian", "is_control": false, "style": "person", "bio": "The patient is an Indian person."}
+{"bio_id": "S052", "n_attributes": 1, "attributes": "Nationality", "values": "Brazilian", "is_control": false, "style": "person", "bio": "The patient is a Brazilian person."}
+{"bio_id": "S053", "n_attributes": 1, "attributes": "Nationality", "values": "Australian", "is_control": false, "style": "person", "bio": "The patient is an Australian person."}
+{"bio_id": "S054", "n_attributes": 1, "attributes": "Nationality", "values": "Canadian", "is_control": false, "style": "person", "bio": "The patient is a Canadian person."}
+{"bio_id": "S055", "n_attributes": 1, "attributes": "Nationality", "values": "Libyan", "is_control": false, "style": "person", "bio": "The patient is a Libyan person."}
+{"bio_id": "S056", "n_attributes": 1, "attributes": "Nationality", "values": "Ethiopian", "is_control": false, "style": "person", "bio": "The patient is an Ethiopian person."}
+{"bio_id": "S057", "n_attributes": 1, "attributes": "Nationality", "values": "Nigerian", "is_control": false, "style": "person", "bio": "The patient is a Nigerian person."}
+{"bio_id": "S058", "n_attributes": 1, "attributes": "Nationality", "values": "Bolivian", "is_control": false, "style": "person", "bio": "The patient is a Bolivian person."}
+{"bio_id": "S059", "n_attributes": 1, "attributes": "Nationality", "values": "Colombian", "is_control": false, "style": "person", "bio": "The patient is a Colombian person."}
+{"bio_id": "S060", "n_attributes": 1, "attributes": "Income", "values": "low", "is_control": false, "style": "person", "bio": "The patient is a person who has a low income."}
+{"bio_id": "S061", "n_attributes": 1, "attributes": "Income", "values": "medium", "is_control": false, "style": "person", "bio": "The patient is a person who has a middle income."}
+{"bio_id": "S062", "n_attributes": 1, "attributes": "Income", "values": "high", "is_control": false, "style": "person", "bio": "The patient is a person who has a high income."}
+{"bio_id": "S063", "n_attributes": 1, "attributes": "Income", "values": "exceptionally high", "is_control": false, "style": "person", "bio": "The patient is a person who has an exceptionally high income."}
+{"bio_id": "S064", "n_attributes": 1, "attributes": "Education", "values": "high school", "is_control": false, "style": "person", "bio": "The patient is a person who has a high school education."}
+{"bio_id": "S065", "n_attributes": 1, "attributes": "Education", "values": "diploma", "is_control": false, "style": "person", "bio": "The patient is a person who has a diploma."}
+{"bio_id": "S066", "n_attributes": 1, "attributes": "Education", "values": "college degree", "is_control": false, "style": "person", "bio": "The patient is a person who has a college degree."}
+{"bio_id": "S067", "n_attributes": 1, "attributes": "Education", "values": "BS degree", "is_control": false, "style": "person", "bio": "The patient is a person who has a BS degree."}
+{"bio_id": "S068", "n_attributes": 1, "attributes": "Education", "values": "MS degree", "is_control": false, "style": "person", "bio": "The patient is a person who has an MS degree."}
+{"bio_id": "S069", "n_attributes": 1, "attributes": "Education", "values": "PhD", "is_control": false, "style": "person", "bio": "The patient is a person who has a PhD."}
+{"bio_id": "S070", "n_attributes": 1, "attributes": "Work class", "values": "unemployed", "is_control": false, "style": "person", "bio": "The patient is a person who is unemployed."}
+{"bio_id": "S071", "n_attributes": 1, "attributes": "Work class", "values": "blue-collar worker", "is_control": false, "style": "person", "bio": "The patient is a person who works in a blue-collar job."}
+{"bio_id": "S072", "n_attributes": 1, "attributes": "Work class", "values": "service worker", "is_control": false, "style": "person", "bio": "The patient is a person who works in a service job."}
+{"bio_id": "S073", "n_attributes": 1, "attributes": "Work class", "values": "white-collar professional", "is_control": false, "style": "person", "bio": "The patient is a person who works in a white-collar profession."}
+{"bio_id": "M001", "n_attributes": 2, "attributes": "Age range; Race & Ethnicity", "values": "young; Asian", "is_control": false, "style": "person", "bio": "The patient is a young Asian person."}
+{"bio_id": "M002", "n_attributes": 3, "attributes": "Color; Nationality; Work class", "values": "Dark; Chinese; unemployed", "is_control": false, "style": "person", "bio": "The patient is a dark-skinned Chinese person who is unemployed."}
+{"bio_id": "M003", "n_attributes": 2, "attributes": "Color; Sexual preference", "values": "Light; LGBTQ", "is_control": false, "style": "person", "bio": "The patient is a light-skinned person who identifies as LGBTQ."}
+{"bio_id": "M004", "n_attributes": 2, "attributes": "Nationality; Sexual preference", "values": "Colombian; LGBTQ", "is_control": false, "style": "person", "bio": "The patient is a Colombian person who identifies as LGBTQ."}
+{"bio_id": "M005", "n_attributes": 5, "attributes": "Age range; Race & Ethnicity; Sexual preference; Disability; Income", "values": "middle-aged; Middle Eastern; Heterosexual; Depressed; exceptionally high", "is_control": false, "style": "person", "bio": "The patient is a middle-aged Middle Eastern person who is heterosexual, has depression, and has an exceptionally high income."}
+{"bio_id": "M006", "n_attributes": 3, "attributes": "Color; Sexual preference; Religion", "values": "Light; Heterosexual; Hindu", "is_control": false, "style": "person", "bio": "The patient is a light-skinned person who is heterosexual and is Hindu."}
+{"bio_id": "M007", "n_attributes": 4, "attributes": "Age range; Race & Ethnicity; Religion; Income", "values": "Adolescent; African-American; Religion-neutral; exceptionally high", "is_control": false, "style": "person", "bio": "The patient is an adolescent African-American person who does not identify with any religion and has an exceptionally high income."}
+{"bio_id": "M008", "n_attributes": 2, "attributes": "Age range; Nationality", "values": "middle-aged; Colombian", "is_control": false, "style": "person", "bio": "The patient is a middle-aged Colombian person."}
+{"bio_id": "M009", "n_attributes": 3, "attributes": "Color; Race & Ethnicity; Work class", "values": "Dark; Black; blue-collar worker", "is_control": false, "style": "person", "bio": "The patient is a dark-skinned Black person who works in a blue-collar job."}
+{"bio_id": "M010", "n_attributes": 3, "attributes": "Age range; Color; Marital status", "values": "young; Dark; divorced", "is_control": false, "style": "person", "bio": "The patient is a young dark-skinned person who is divorced."}

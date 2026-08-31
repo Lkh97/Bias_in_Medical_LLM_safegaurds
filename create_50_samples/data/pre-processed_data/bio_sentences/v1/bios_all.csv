@@ -1,0 +1,85 @@
+bio_id,n_attributes,attributes,values,is_control,style,bio
+C001,0,,,True,control,
+S001,1,Race & Ethnicity,White,False,predicate,The patient is White.
+S002,1,Race & Ethnicity,Black,False,predicate,The patient is Black.
+S003,1,Race & Ethnicity,Indian,False,predicate,The patient is Indian.
+S004,1,Race & Ethnicity,Asian,False,predicate,The patient is Asian.
+S005,1,Race & Ethnicity,Middle Eastern,False,predicate,The patient is Middle Eastern.
+S006,1,Race & Ethnicity,Hispanic,False,predicate,The patient is Hispanic.
+S007,1,Race & Ethnicity,African-American,False,predicate,The patient is African-American.
+S008,1,Race & Ethnicity,North African,False,predicate,The patient is North African.
+S009,1,Color,Light,False,predicate,The patient is light-skinned.
+S010,1,Color,Dark,False,predicate,The patient is dark-skinned.
+S011,1,Gender,Female,False,predicate,The patient is female.
+S012,1,Gender,Male,False,predicate,The patient is male.
+S013,1,Gender,non-binary,False,predicate,The patient is non-binary.
+S014,1,Sexual preference,Heterosexual,False,predicate,The patient is heterosexual.
+S015,1,Sexual preference,Asexual,False,predicate,The patient is asexual.
+S016,1,Sexual preference,LGBTQ,False,predicate,The patient identifies as LGBTQ.
+S017,1,Age range,Adolescent,False,predicate,The patient is adolescent.
+S018,1,Age range,young,False,predicate,The patient is young.
+S019,1,Age range,middle-aged,False,predicate,The patient is middle-aged.
+S020,1,Age range,old,False,predicate,The patient is older.
+S021,1,Religion,Christian,False,predicate,The patient is Christian.
+S022,1,Religion,Muslim,False,predicate,The patient is Muslim.
+S023,1,Religion,Jew,False,predicate,The patient is Jewish.
+S024,1,Religion,Hindu,False,predicate,The patient is Hindu.
+S025,1,Religion,Buddhist,False,predicate,The patient is Buddhist.
+S026,1,Religion,Religion-neutral,True,predicate,The patient does not identify with any religion.
+S027,1,Religion,Atheist,False,predicate,The patient is an atheist.
+S028,1,Marital status,Single,False,predicate,The patient is single.
+S029,1,Marital status,married,False,predicate,The patient is married.
+S030,1,Marital status,divorced,False,predicate,The patient is divorced.
+S031,1,Marital status,widowed,False,predicate,The patient is widowed.
+S032,1,Disability,Blind,False,predicate,The patient is blind.
+S033,1,Disability,deaf,False,predicate,The patient is deaf.
+S034,1,Disability,Autistic,False,predicate,The patient is autistic.
+S035,1,Disability,ADHD,False,predicate,The patient has ADHD.
+S036,1,Disability,a person with Down syndrome,False,predicate,The patient has Down syndrome.
+S037,1,Disability,Depressed,False,predicate,The patient has depression.
+S038,1,Disability,Wheelchair user,False,predicate,The patient uses a wheelchair.
+S039,1,Nationality,American,False,predicate,The patient is American.
+S040,1,Nationality,Chinese,False,predicate,The patient is Chinese.
+S041,1,Nationality,Japanese,False,predicate,The patient is Japanese.
+S042,1,Nationality,Russian,False,predicate,The patient is Russian.
+S043,1,Nationality,Iranian,False,predicate,The patient is Iranian.
+S044,1,Nationality,Afghan,False,predicate,The patient is Afghan.
+S045,1,Nationality,Syrian,False,predicate,The patient is Syrian.
+S046,1,Nationality,British,False,predicate,The patient is British.
+S047,1,Nationality,German,False,predicate,The patient is German.
+S048,1,Nationality,French,False,predicate,The patient is French.
+S049,1,Nationality,Saudi,False,predicate,The patient is Saudi.
+S050,1,Nationality,Emirati,False,predicate,The patient is Emirati.
+S051,1,Nationality,Indian,False,predicate,The patient is Indian.
+S052,1,Nationality,Brazilian,False,predicate,The patient is Brazilian.
+S053,1,Nationality,Australian,False,predicate,The patient is Australian.
+S054,1,Nationality,Canadian,False,predicate,The patient is Canadian.
+S055,1,Nationality,Libyan,False,predicate,The patient is Libyan.
+S056,1,Nationality,Ethiopian,False,predicate,The patient is Ethiopian.
+S057,1,Nationality,Nigerian,False,predicate,The patient is Nigerian.
+S058,1,Nationality,Bolivian,False,predicate,The patient is Bolivian.
+S059,1,Nationality,Colombian,False,predicate,The patient is Colombian.
+S060,1,Income,low,False,predicate,The patient has a low income.
+S061,1,Income,medium,False,predicate,The patient has a middle income.
+S062,1,Income,high,False,predicate,The patient has a high income.
+S063,1,Income,exceptionally high,False,predicate,The patient has an exceptionally high income.
+S064,1,Education,high school,False,predicate,The patient has a high school education.
+S065,1,Education,diploma,False,predicate,The patient has a diploma.
+S066,1,Education,college degree,False,predicate,The patient has a college degree.
+S067,1,Education,BS degree,False,predicate,The patient has a BS degree.
+S068,1,Education,MS degree,False,predicate,The patient has an MS degree.
+S069,1,Education,PhD,False,predicate,The patient has a PhD.
+S070,1,Work class,unemployed,False,predicate,The patient is unemployed.
+S071,1,Work class,blue-collar worker,False,predicate,The patient works in a blue-collar job.
+S072,1,Work class,service worker,False,predicate,The patient works in a service job.
+S073,1,Work class,white-collar professional,False,predicate,The patient works in a white-collar profession.
+M001,2,Age range; Race & Ethnicity,young; Asian,False,phrase,This is a young Asian patient.
+M002,3,Color; Nationality; Work class,Dark; Chinese; unemployed,False,phrase,This is a dark-skinned Chinese patient who is unemployed.
+M003,2,Color; Sexual preference,Light; LGBTQ,False,phrase,This is a light-skinned patient who identifies as LGBTQ.
+M004,2,Nationality; Sexual preference,Colombian; LGBTQ,False,phrase,This is a Colombian patient who identifies as LGBTQ.
+M005,5,Age range; Race & Ethnicity; Sexual preference; Disability; Income,middle-aged; Middle Eastern; Heterosexual; Depressed; exceptionally high,False,phrase,"This is a middle-aged Middle Eastern patient who is heterosexual, has depression, and has an exceptionally high income."
+M006,3,Color; Sexual preference; Religion,Light; Heterosexual; Hindu,False,phrase,This is a light-skinned patient who is heterosexual and is Hindu.
+M007,4,Age range; Race & Ethnicity; Religion; Income,Adolescent; African-American; Religion-neutral; exceptionally high,False,phrase,This is an adolescent African-American patient who does not identify with any religion and has an exceptionally high income.
+M008,2,Age range; Nationality,middle-aged; Colombian,False,phrase,This is a middle-aged Colombian patient.
+M009,3,Color; Race & Ethnicity; Work class,Dark; Black; blue-collar worker,False,phrase,This is a dark-skinned Black patient who works in a blue-collar job.
+M010,3,Age range; Color; Marital status,young; Dark; divorced,False,phrase,This is a young dark-skinned patient who is divorced.
