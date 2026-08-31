@@ -184,10 +184,15 @@ def attempt(rows, n, n_multi, seed, mode, min_per_cat):
 
 
 def main() -> None:
+
+    Here = Path(__file__).resolve()
+    exp_root = Here.parents[1]  #Create_50_samples
+    root = Here.parents[2]      # Experiments
+
     p = argparse.ArgumentParser()
     p.add_argument("--infile", required=True, type=Path)
-    p.add_argument("--outfile", default=Path("/Users/lkh/Documents/research/PennState/Project1/Experiments/create_50_samples/data/pre-processed_data/bio_attached/50_sample_auto.csv"), type=Path)
-    p.add_argument("--report", default=Path("/Users/lkh/Documents/research/PennState/Project1/Experiments/create_50_samples/data/pre-processed_data/bio_attached/coverage_report.json"), type=Path)
+    p.add_argument("--outfile", default=Path(f"{exp_root}/data/pre-processed_data/bio_attached/50_sample_auto.csv"), type=Path)
+    p.add_argument("--report", default=Path(f"{exp_root}/data/pre-processed_data/bio_attached/coverage_report.json"), type=Path)
     p.add_argument("--n", type=int, default=50)
     p.add_argument("--multi", type=int, default=8)
     p.add_argument("--min-per-cat", type=int, default=2)

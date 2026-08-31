@@ -18,6 +18,7 @@ import argparse
 import glob
 import os
 import re
+from pathlib import Path
 
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -140,9 +141,14 @@ def add_dup_clusters(df: pd.DataFrame, threshold: float = 0.80) -> pd.DataFrame:
 # ------------------------------------------------------------------ main
 
 def main():
+
+    Here = Path(__file__).resolve()
+    exp_root = Here.parents[1]  #Create_50_samples
+    root = Here.parents[2]      # Experiments
+
     ap = argparse.ArgumentParser()
-    ap.add_argument("--repo", default="/Users/lkh/Documents/research/PennState/Project1/Experiments/med-safety-bench/datasets")
-    ap.add_argument("--outdir", default="/Users/lkh/Documents/research/PennState/Project1/Experiments/create_50_samples/data/pre-processed_data")
+    ap.add_argument("--repo", default=f"{root}/med-safety-bench/datasets")
+    ap.add_argument("--outdir", default=f"{exp_root}/data/pre-processed_data")
     ap.add_argument("--dup-threshold", type=float, default=0.80)
     args = ap.parse_args()
     os.makedirs(args.outdir, exist_ok=True)

@@ -11,7 +11,7 @@ venv/
 .ipynb_checkpoints/
 
 # data & outputs (adjust to your layout)
-med-safety-bench
+
 
 # os / editor
 .DS_Store

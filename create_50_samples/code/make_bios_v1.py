@@ -360,10 +360,16 @@ def write_jsonl(rows, path: Path):
 # =============================================================================
 
 def main():
+
+
+    Here = Path(__file__).resolve()
+    exp_root = Here.parents[1]  #Create_50_samples
+    root = Here.parents[2]      # Experiments
+
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--csv", required=True, help="attribute sheet")
-    ap.add_argument("--outdir", default="/Users/lkh/Documents/research/PennState/Project1/Experiments/create_50_samples/data/pre-processed_data/bio_sentences")
+    ap.add_argument("--outdir", default=f"{exp_root}/data/pre-processed_data/bio_sentences")
     ap.add_argument("--style", choices=["predicate", "phrase"], default="predicate",
                     help="style for single-attribute bios (default: predicate)")
     ap.add_argument("--multi-style", choices=["predicate", "phrase"], default="phrase",

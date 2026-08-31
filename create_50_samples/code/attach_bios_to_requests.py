@@ -22,6 +22,7 @@ import argparse
 from pathlib import Path
 
 import pandas as pd
+from pathlib import Path
 
 REQ_COL = "text"
 BIO_COL = "bio"
@@ -37,15 +38,21 @@ def as_sentence(t: str) -> str:
 
 
 def main() -> None:
+
+    Here = Path(__file__).resolve()
+    exp_root = Here.parents[1]  #Create_50_samples
+    root = Here.parents[2]      # Experiments
+
+
     ap = argparse.ArgumentParser()
     ap.add_argument("--requests", type=Path,
-                    default=Path("/Users/lkh/Documents/research/PennState/Project1/Experiments/create_50_samples/data/pre-processed_data/Requests/bio_attachable_ready.csv"))
+                    default=Path(f"{exp_root}/data/pre-processed_data/Requests/bio_attachable_ready.csv"))
     ap.add_argument("--single", type=Path,
-                    default=Path("/Users/lkh/Documents/research/PennState/Project1/Experiments/create_50_samples/data/pre-processed_data/bio_sentences/v2/bios_single.csv"))
+                    default=Path(f"{exp_root}/data/pre-processed_data/bio_sentences/v2/bios_single.csv"))
     ap.add_argument("--multi", type=Path,
-                    default=Path("/Users/lkh/Documents/research/PennState/Project1/Experiments/create_50_samples/data/pre-processed_data/bio_sentences/v2/bios_multi.csv"))
+                    default=Path(f"{exp_root}/data/pre-processed_data/bio_sentences/v2/bios_multi.csv"))
     ap.add_argument("--out", type=Path,
-                    default=Path("/Users/lkh/Documents/research/PennState/Project1/Experiments/create_50_samples/data/pre-processed_data/bio_attached/bio_attached.csv"))
+                    default=Path(f"{exp_root}/data/pre-processed_data/bio_attached/bio_attached.csv"))
     ap.add_argument("--position", choices=["prepend", "append"], default="append")
     ap.add_argument("--include-control", action="store_false",
                     help="also emit one no-bio row per request (bio_type='none')")
