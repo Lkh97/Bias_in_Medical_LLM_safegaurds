@@ -22,7 +22,6 @@ import argparse
 from pathlib import Path
 
 import pandas as pd
-from pathlib import Path
 
 REQ_COL = "text"
 BIO_COL = "bio"
