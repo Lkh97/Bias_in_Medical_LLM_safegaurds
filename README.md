@@ -3,14 +3,10 @@
 This repository generates demographically conditioned harmful medical requests to evaluate the robustness of safeguards 
 in medical and general-purpose LLMs, and to measure bias in their safety behavior.
 
-The work builds on [MedSafetyBench](https://arxiv.org/abs/XXXX.XXXXX) (add the link and citation).
-
-## Purpose
-
-- Test whether LLM safety guardrails hold up when harmful medical requests include demographic context.
-- Measure bias in safety responses across demographic groups.
-- Compare medical-specialized and general-purpose LLMs.
+The work builds on [MedSafetyBench]([https://arxiv.org/abs/XXXX.XXXXX] (https://proceedings.neurips.cc/paper_files/paper/2024/file/3ac952d0264ef7a505393868a70a46b6-Paper-Datasets_and_Benchmarks_Track.pdf).
 
 ## References
 
-- MedSafetyBench: *(add full citation)*
+Han, T., Kumar, A., Agarwal, C., & Lakkaraju, H. (2024). 
+Medsafetybench: Evaluating and improving the medical safety of large language models. 
+Advances in neural information processing systems, 37, 33423-33454.
